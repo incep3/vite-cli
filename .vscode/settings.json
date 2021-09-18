@@ -1,0 +1,15 @@
+{
+  "prettier.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  "eslint.alwaysShowStatus": true, // 总是在 VSCode 显示 ESLint 的状态
+  "eslint.quiet": false, // 忽略 warning 的错误  此项可注释
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true // 保存时使用 eslint/stylelint 修复可修复错误
+  }
+}
